@@ -22,10 +22,51 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:textSize="40dp"
-        android:text="Start game"
+        android:text="Easy"
+        android:backgroundTint="#429EEB"
         android:layout_gravity="center"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btnGameE"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Medium"
+        android:backgroundTint="#425BEB"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btnGameM"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Difficult"
+        android:backgroundTint="#5225E6"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btnGameD"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="2 players"
+        android:backgroundTint="#F41C45"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
         android:id="@+id/btnGame"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Against AI"
+        android:backgroundTint="#FAD039"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btnGameAI"></Button>
 
     <Button
         android:layout_width="300dp"
@@ -33,7 +74,16 @@
         android:textSize="40dp"
         android:text="Question"
         android:layout_gravity="center"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/btn2"></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Instructions"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btnIns"></Button>
 
 </LinearLayout>
