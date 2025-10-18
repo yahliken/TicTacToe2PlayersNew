@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(i);
         }
         if (view == btnIns) {
-            Intent i = new Intent(MainActivity.this , GameActivity.class);
+            Intent i = new Intent(MainActivity.this , Instructions.class);
             startActivity(i);
         }
         else {
